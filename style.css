@@ -10,7 +10,15 @@ a {
 }
 
 body {
+  width: 100%;
+  overflow-x: hidden;
   background-color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* 헤더 */
@@ -50,6 +58,7 @@ body {
   align-items: center;
   padding: 120px 10%;
   margin-top: 64px;
+  flex-wrap: wrap;
 }
 
 .banner_content h1 {
@@ -85,6 +94,7 @@ body {
 }
 
 .section_inner {
+  background-color: #fcfcfc;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,6 +137,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* 푸터
